@@ -52,7 +52,8 @@ El proyecto sigue el patrón **Arquitectura Hexagonal (Ports and Adapters)** par
 
 ## 📂 Estructura de Carpetas Java
 
-src/main/java/com/clinica
+```plaintext
+src/main/java/com/tuempresa/clinica
 │
 ├── main.java                     # Clase main (Spring Boot)
 │
@@ -73,5 +74,5 @@ src/main/java/com/clinica
 │   └── out                        # Interceptor
 │
 └── config                        # NP& (No Precisado)
-
+```
 
