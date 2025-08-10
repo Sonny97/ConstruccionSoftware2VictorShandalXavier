@@ -63,7 +63,8 @@ src/main/java/com/tuempresa/clinica
 │   └── service                    # Servicios de dominio (reglas de negocio)
 │
 ├── infrastructure                # Implementaciones técnicas (BD, etc.)
-│   └── mocks                      # Datos mockeados para pruebas desde main
+│
+├── mocks                      # Datos mockeados para pruebas desde main
 │
 ├── application                   # Capa de aplicación (Casos de uso)
 │   ├── port                       # Puertos (si se usan)
