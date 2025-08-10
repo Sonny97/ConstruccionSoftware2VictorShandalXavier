@@ -51,3 +51,27 @@ El proyecto sigue el patrón **Arquitectura Hexagonal (Ports and Adapters)** par
 ---
 
 ## 📂 Estructura de Carpetas Java
+
+src/main/java/com/tuempresa/clinica
+│
+├── main.java      # Clase main (Spring Boot)
+│
+├── domain                       # Contiene la logica del negocio, el corazon del sistema
+│   ├── model                    # interfaces y clases abstractas
+│   ├── repository               # NP&
+│   └── service                  # Servicios de dominio (reglas de negocio)
+│
+├── infrastructure               # Por si usamos BD
+│
+├── mocks                        # Pa tener data mockeada desde el main
+│
+├── application                  # Capa de aplicación (Casos de uso)
+│   ├── port                     # nose si si lo vamos a usar, si nisiquiera vamos a usar la de infra (creo)
+│   └── usecase                  # Implementaciones de casos de uso
+│
+├── adapter                      # Adaptadores, que mas hay que explicar si son adaptadores
+│   ├── in                       # Middleware
+│   └── out                      # Interceptor 
+│
+└── config                       # NP&
+
