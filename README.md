@@ -1,5 +1,5 @@
 # Construccion de software II
-
+ - Horario Lunes - Miercoles : 8 - 10 pm
 ## Integrantes del equipo
 - Victor Manuel Florez Taborda (https://github.com/Sonny97)
 - Shandal
@@ -7,6 +7,7 @@
 
 ## Tecnologia de desarrollo 
 - Java v???
+- SpringBoot
 - un framework raro que menciono el profe pero no recuerdo
 - Git
 - sepa la chingada que mas...

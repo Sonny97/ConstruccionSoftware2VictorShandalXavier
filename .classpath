@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="clinica/src/main/java"/>
+	<classpathentry kind="src" path="clinica/src/test/java"/>
+	<classpathentry excluding="application/useCase/|domain/services/|domain/repository/" kind="src" path="src/main/java/com/clinica"/>
+	<classpathentry kind="src" path="src/main/java/com/clinica/application/useCase"/>
+	<classpathentry kind="src" path="src/main/java/com/clinica/domain/repository"/>
+	<classpathentry kind="src" path="src/main/java/com/clinica/domain/services"/>
+	<classpathentry kind="output" path="clinica/target/classes"/>
+</classpath>
